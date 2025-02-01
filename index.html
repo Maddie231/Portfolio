@@ -5,176 +5,297 @@
 	Free for personal and commercial use under the CCA 3.0 license (html5up.net/license)
 -->
 <html>
-	<head>
-		<title>Portfolio</title>
-		<meta charset="utf-8" />
-		<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
-		<link rel="stylesheet" href="assets/css/main.css" />
-		<script>
-			// Function to download the resume
-			function downloadResume() {
-			  const resumeLink = 'images/Madhuri.M_Resume.pdf'; // Path or URL to the resume file
-			  const link = document.createElement('a'); // Create a temporary anchor element
-			  link.href = resumeLink; // Set the href attribute to the file path
-			  link.setAttribute('download', 'Madhuri_M_Resume.pdf'); // Force download with specified file name
-			  link.style.display = 'none'; // Hide the link
-			  document.body.appendChild(link); // Append the link to the document body
-			  link.click(); // Simulate a click to trigger the download
-			  document.body.removeChild(link); // Clean up by removing the temporary link
-			}
-		  </script>
-				
-		  
-		  
-	</head>
-	<body class="is-preload">
 
+<<<<<<< HEAD
 		<!-- Header -->
 		<header id="header">
 			<div class="inner">
 				<a href="#" class="image_avatar"><img src="images/Maddie.JPEG" alt="Your Avatar" /></a>
 				<h1 class="Tag">Hello, I'm<strong> Madhuri Malyala</strong>, a passionate DataScientist and AI enthusiast, blending creativity with technology to unlock insights and drive innovation.</h1>
 				<p class="tagline"><em>Exploring the universe of data, one insight at a time.</em></p>
+=======
+<head>
+	<title>Portfolio</title>
+	<meta charset="utf-8" />
+	<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
+	<link rel="stylesheet" href="assets/css/main.css" />
+	<script>
+		// Function to download the resume
+		function downloadResume() {
+			const resumeLink = 'images/Madhuri.M_Resume.pdf'; // Path or URL to the resume file
+			const link = document.createElement('a'); // Create a temporary anchor element
+			link.href = resumeLink; // Set the href attribute to the file path
+			link.setAttribute('download', 'Madhuri_M_Resume.pdf'); // Force download with specified file name
+			link.style.display = 'none'; // Hide the link
+			document.body.appendChild(link); // Append the link to the document body
+			link.click(); // Simulate a click to trigger the download
+			document.body.removeChild(link); // Clean up by removing the temporary link
+		}
+	</script>
+
+
+
+</head>
+
+<body class="is-preload">
+
+	<!-- Header -->
+	<header id="header">
+		<div class="inner">
+			<a href="#" class="image_avatar"><img src="images/Maddie.jpeg" alt="Your Avatar" /></a>
+			<h1 class="Tag">Hello, I'm<strong> Madhuri Malyala</strong>, a passionate DataScientist and AI enthusiast,
+				blending creativity with technology to unlock insights and drive innovation.</h1>
+			<p class="tagline"><em>Exploring the universe of data, one insight at a time.</em></p>
+		</div>
+	</header>
+
+	<!-- Main -->
+	<div id="main">
+
+		<!-- One -->
+		<section class="education">
+			<h2>Education</h2>
+			<div class="education-item">
+				<div class="degree-info">
+					<h3 class="university-name">Florida State University <span>🪶</span></h3>
+					<p class="degree-subtitle">Master's Degree in Interdisciplinary Data Science. CGPA: 3.972/4.0</p>
+				</div>
+				<p class="years">Aug 2023 – May 2025</p>
+
+>>>>>>> 1cff5b7 (Updated portfolio with project and blog sections)
 			</div>
-		</header>			
+			<div class="education-item">
+				<div class="degree-info">
+					<h3 class="university-name">Anurag Group of Institutions <span>📚</span></h3>
+					<p class="degree-subtitle">Bachelor's Degree in Electrical and Electronics Engineering.CGPA: 9.62/10
+					</p>
+				</div>
+				<p class="years">June 2015 – Apr 2019 </p>
+			</div>
+			<div class="download-button">
+				<button onclick="downloadResume()">Resume</button>
+			</div>
+		</section>
 
-		<!-- Main -->
-			<div id="main">
+		<section id="current-role">
+			<div class="inner">
+				<h2>💼 Current Role</h2>
+				<h3 class="I">Data Engineering Intern <span class="year">Oct 2024 – Present </span></h3>
+				<p class="degree-subtitle">Information Technology Services (ITS), Tallahassee</p>
+				<ul class="custom-list">
+					<li>Supporting the development of data pipelines and ETL processes.</li>
+					<li>Assisting in data quality assessments and database management.</li>
+					<li>Currently developing data pipelines for Snowflake and loading data into it.</li>
+				</ul>
+			</div>
+		</section>
+		<section id="research">
+			<div class="inner">
+				<h3 class="I">🔬 Research Assistant<span class="year1">Oct 2023 – Present</span></h3>
+				<p class="degree-subtitle">Bridge Transformer Project, Florida State University
+				<p>
+				<ul class="custom-list">
+					<li>Collaborating with researchers to develop enriching learning experiences for children using
+						transformer architecture.</li>
+					<li>Project selected for presentation at the SSSR Research Conference in Copenhagen, July 2024.</li>
+					<li>Implemented the Wandb Artifacts system for efficient model checkpoint management and
+						participated in rigorous testing.</li>
+					<li>Currently developing a website for the lab to showcase ongoing research and results.</li>
+				</ul>
 
-				<!-- One -->
-				<section class="education">
-					<h2>Education</h2>
-					<div class="education-item">
-					  <div class="degree-info">
-						<h3 class="university-name">Florida State University <span>🪶</span></h3>
-						<p class="degree-subtitle">Master's Degree in Interdisciplinary Data Science. CGPA:  3.972/4.0</p> 
-					  </div>
-					  <p class="years">Aug 2023 – May 2025</p>
-					  
+			</div>
+		</section>
+
+		<!-- Previous Experience Section -->
+		<section id="previous-experience">
+			<div class="inner">
+				<h2>💼 Previous Experience</h2>
+
+				<!-- Senior Systems Engineer -->
+				<h3 class="I">Senior Systems Engineer <span class="year2">Dec 2021 - Aug 2022</span></h3>
+				<p>
+				<ul class="custom-list">
+					<li>Led the development of a PII Discovery Portal using ReactJS, Node.js, MongoDB, and SQL, ensuring
+						enhanced data
+						security compliance.</li>
+					<li>Implemented session handling and tokenization for secure authentication and role-based UI
+						rendering.
+					<li>Designed and developed the report repository system leveraging Python GridFS for efficient file
+						storage with
+						unique global counters.</li>
+					<li>Developed automation scripts in <em>Python</em> to streamline workflows and reduce manual
+						effort.</li>
+					<li>Worked closely with clients to understand their needs and develop tailored software solutions.
+					</li>
+					<li>Performed <em>root cause analysis (RCA)</em> to diagnose and resolve production issues
+						efficiently.</li>
+					<li>Authored <em>user manuals</em> and led training sessions to onboard coworkers on project
+						knowledge transfer and
+						recent upgrades.</li>
+					<li>Conducted <em>unit testing</em> to validate system performance and ensure high-quality delivery.
+					</li>
+
+				</ul>
+				</p>
+
+				<!-- Systems Engineer -->
+				<h3 class="I">Systems Engineer <span class="year3">Feb 2020 - Dec 2021</span></h3>
+				<p>
+				<ul class="custom-list">
+					<li>Implemented <em>data masking</em> using <em>ETL IBM Optim</em> to ensure compliance and enhance
+						security.</li>
+					<li>Developed automation solutions for data masking using IBM Infosphere,
+						reducing manual workload by  40% </li>
+					<li>Provided system performance monitoring and troubleshooting support to ensure smooth operations.
+					</li>
+
+					<li>Proficient in SQL,DB2, and Oracle databases,
+						managing and optimizing over 10 million records for data masking. Utilized a
+						strategy of breaking large tables into 5-7 smaller tables, applying
+						incremental loading to ensure efficient processing, and then merging
+						the data to maintain accuracy and consistency.</li>
+					<li>Successfully completed 6 internal certifications, including Python
+							Associate Node.js Developer, and Frontend
+							Developer, demonstrating technical expertise and a commitment to professional
+						growth.</li>
+					<li> Re-skilled in Azure Cloud Fundamentals, earning two Microsoft
+							Certifications AZ-900 and SC-900, and
+						successfully deployed 5 cloud-based solutions.</li>
+					<li>Recognized with the I-Rise Award for outstanding contributions in the
+						development of a web portal, resulting in a 25% improvement in
+						user engagement and system performance.</li>
+				</ul>
+				</p>
+
+				<!-- Systems Engineer Trainee -->
+				<h3 class="I">Systems Engineer Trainee <span class="year4">Oct 2019 - Feb 2020</span></h3>
+				<p>
+				<ul class="custom-list">
+					<li>Completed intensive training in Python, SQL, MERN stack, JavaScript, HTML, CSS, Bootstrap</li>
+					<li>Developed a full-fledged e-commerce website in a team of four, enhancing business communication and creative design thinking.</li>
+				</ul>
+				</p>
+			</div>
+		</section>
+
+
+		<!-- Two -->
+		<section id="two">
+			<h2>Interests</h2>
+			<div class="row">
+				<article class="col-3 col-6-medium col-12-xsmall work-item">
+					<div class="interest-card">
+						<img src="images/DataScience.jpg" alt="Data Science" class="image fit thumb" />
+						<h3>Data Science</h3>
+						<!--<p class="hidden">Analyzing data to find trends, make decisions, and drive business strategies.</p>-->
 					</div>
-					<div class="education-item">
-					  <div class="degree-info">
-						<h3 class="university-name">Anurag Group of Institutions <span>📚</span></h3>
-						<p class="degree-subtitle">Bachelor's Degree in Electrical and Electronics Engineering.CGPA:  9.62/10</p>
-					  </div>
-					  <p class="years">June 2015 – Apr 2019 </p>
+				</article>
+				<article class="col-3 col-6-medium col-12-xsmall work-item">
+					<div class="interest-card">
+						<img src="images/AI.jpg" alt="Artificial Intelligence" class="image fit thumb" />
+						<h3>Artificial Intelligence</h3>
+						<!--<p class="hidden">Building systems that learn, adapt, and improve over time.</p>-->
 					</div>
-					<div class="download-button">
-						<button onclick="downloadResume()">Resume</button>
+				</article>
+				<article class="col-3 col-6-medium col-12-xsmall work-item">
+					<div class="interest-card">
+						<img src="images/Web development.jpg" alt="Web Development" class="image fit thumb" />
+						<h3>Web Development</h3>
+						<!--<p class="hidden">Designing user-friendly and visually appealing web interfaces.</p>-->
 					</div>
-				  </section>
-
-				  <section id="current-role">
-					<div class="inner">
-						<h2>💼 Current Role</h2>
-						<h3 class="I">Data Engineering Intern <span class="year">Oct 2024 – Present </span></h3>
-						<p class="degree-subtitle">Information Technology Services (ITS),  Tallahassee</p>
-						<ul class="custom-list">
-							<li>Supporting the development of data pipelines and ETL processes.</li>
-							<li>Assisting in data quality assessments and database management.</li>
-							<li>Currently developing data pipelines for Snowflake and loading data into it.</li>
-						</ul>
+				</article>
+				<article class="col-3 col-6-medium col-12-xsmall work-item">
+					<div class="interest-card">
+						<img src="images/Data Engineering.jpg" alt="Data Engineering" class="image fit thumb" />
+						<h3>Data Engineering</h3>
+						<!--<p class="hidden">Building pipelines and managing large datasets.</p>-->
 					</div>
-				</section>
-				<section id="research">
-					<div class="inner">
-						<h3 class="I">🔬 Research Assistant<span class="year1">Oct 2023 – Present</span></h3>
-						<p class="degree-subtitle">Bridge Transformer Project, Florida State University <p>
-							<ul class="custom-list">
-								<li>Collaborating with researchers to develop enriching learning experiences for children using transformer architecture.</li>
-								<li>Project selected for presentation at the SSSR Research Conference in Copenhagen, July 2024.</li>
-								<li>Implemented the Wandb Artifacts system for efficient model checkpoint management and participated in rigorous testing.</li>
-								<li>Currently developing a website for the lab to showcase ongoing research and results.</li>
-							</ul>
-							
+				</article>
+			</div>
+		</section>
+		
+		<section id="projects">
+			<h2>Projects</h2>
+		
+			<!-- Tabs for Categories -->
+			<div class="tabs">
+				<div class="tab-list">
+					<button class="tab active" data-category="all">All</button>
+					<button class="tab" data-category="data-science">Data Science</button>
+					<button class="tab" data-category="ml-ai">Machine Learning / AI</button>
+					<button class="tab" data-category="web-dev">Web Development</button>
+				</div>
+		
+				<div class="project-grid">
+					<!-- Dynamic Pricing -->
+					<div class="project-card data-science show">
+						<h3>Dynamic Pricing in Paris Housing</h3>
+						<!--<p>Analyzed key factors influencing dynamic pricing trends in the Paris housing market.</p>-->
+						<div class="tech-stack">R, Regression Analysis, Data Visualization</div>
+						<!--<a href="#" class="project-btn">View Report</a>-->
 					</div>
-				</section>
-				
-				<!-- Previous Experience Section -->
-				<section id="previous-experience">
-					<div class="inner">
-						<h2>💼 Previous Experience</h2>
-						
-						<!-- Senior Systems Engineer -->
-						<h3 class="I">Senior Systems Engineer <span class="year2">Dec 2021 - Aug 2022</span></h3>
-						<p>
-							<ul class="custom-list">
-								<li>Worked on developing and optimizing software solutions to enhance operational efficiency.</li>
-								<li>Collaborated with cross-functional teams to implement technical solutions tailored to client requirements.</li>
-								<li>Designed and developed backend processes to support enterprise-level applications.</li>
-							</ul>
-						</p>
-
-						<!-- Systems Engineer -->
-						<h3 class="I">Systems Engineer  <span class="year3">Feb 2020 - Dec 2021</span></h3>
-						<p>
-							<ul class="custom-list">
-								<li>Developed and maintained internal systems for business operations and data management.</li>
-								<li>Implemented automation solutions to improve data accuracy and reduce processing time.</li>
-								<li>Provided system performance monitoring and troubleshooting support to ensure smooth operations.</li>
-							</ul>
-						</p>
-
-						<!-- Systems Engineer Trainee -->
-						<h3 class="I">Systems Engineer Trainee <span class="year4">Oct 2019 - Feb 2020</span></h3>
-						<p>
-							<ul class="custom-list">
-								<li>Assisted in the design and implementation of software systems to meet client demands.</li>
-								<li>Collaborated with senior engineers to develop solutions and troubleshoot system issues.</li>
-								<li>Performed system testing and contributed to the preparation of technical documentation.</li>
-							</ul>
-						</p>
+		
+					<!-- Breast Cancer Detection -->
+					<div class="project-card data-science ml-ai show">
+						<h3>Breast Cancer Detection</h3>
+						<!--<p>Developed a machine learning model for classifying tumors as benign or malignant using diagnostic data.</p>-->
+						<div class="tech-stack">Python, Scikit-learn, ML Algorithms</div>
+						<a href="https://github.com/Maddie231/breast-cancer-detection" target="_blank" class="project-btn">GitHub</a>
 					</div>
-				</section>
-
-
-				<!-- Two -->
-				<section id="two">
-					<h2>Interests</h2>
-					<div class="row">
-						<article class="col-6 col-12-xsmall work-item">
-							<a href="images/DataScience.jpg" class="image fit thumb">
-								<img src="images/DataScience.jpg" alt="Data Science" />
-							</a>
-							<h3>Data Science</h3>
-							<p>Analyzing data to find trends, make decisions, and drive business strategies.</p>
-						</article>
-						<article class="col-6 col-12-xsmall work-item">
-							<a href="images/AI.jpg" class="image fit thumb">
-								<img src="images/AI.jpg" alt="Artificial Intelligence" />
-							</a>
-							<h3>Artificial Intelligence</h3>
-							<p>Building systems that can learn, adapt, and improve over time to solve complex problems.</p>
-						</article>
-						<article class="col-6 col-12-xsmall work-item">
-							<a href="images/Web development.jpg" class="image fit thumb">
-								<img src="images/Web development.jpg" alt="Front-End Development" />
-							</a>
-							<h3>Web Development</h3>
-							<p>Designing and building user-friendly, visually appealing web interfaces and Web services.</p>
-						</article>
-						<article class="col-6 col-12-xsmall work-item">
-							<a href="images/Data Engineering.jpg" class="image fit thumb">
-								<img src="images/Data Engineering.jpg" alt="Data Engineering" />
-							</a>
-							<h3>Data Engineering</h3>
-							<p>Creating the pipelines and infrastructure to manage and process large datasets.</p>
-						</article>
+		
+					<!-- Drought Forecasting -->
+					<div class="project-card ml-ai show">
+						<h3>Drought Forecasting</h3>
+						<!--<p>Implemented multivariate time series models to forecast drought conditions and predict risk factors.</p>-->
+						<div class="tech-stack">Time Series, Python, Forecasting Models</div>
+						<a href="https://github.com/Maddie231/Drought_Forecasting_using_LSTM" target="_blank" class="project-btn">GitHub</a>
 					</div>
-					<ul class="actions">
-						<li><a href="#" class="button">Full Portfolio</a></li>
-					</ul>
-				</section>
+		
+					<!-- Agentic Framework (Only in ML/AI) -->
+					<div class="project-card ml-ai show">
+						<h3>Agentic Framework Using LangChain</h3>
+						<!--<p>Developed an NLP framework using LangChain APIs to enhance language model interactions and workflows.</p>-->
+						<div class="tech-stack">LangChain, NLP, Python</div>
+						<a href="https://github.com/Maddie231/LangChain" target="_blank" class="project-btn">GitHub</a>
+					</div>
+				</div>
+			</div>
+		</section>
+		<section id="blog">
+			<h2>Blog</h2>
+			<div class="coming-soon">
+				<p>🚀 Coming Soon! Stay tuned for insightful articles on Data Science, Machine Learning, and Web Development.</p>
+			</div>
+		</section>
+		
+		<script>
+			const tabs = document.querySelectorAll('.tab');
+			const cards = document.querySelectorAll('.project-card');
+		
+			tabs.forEach(tab => {
+				tab.addEventListener('click', () => {
+					tabs.forEach(t => t.classList.remove('active'));
+					tab.classList.add('active');
+		
+					const category = tab.dataset.category;
+		
+					cards.forEach(card => {
+						if (category === 'all' || card.classList.contains(category)) {
+							card.style.display = 'block';
+						} else {
+							card.style.display = 'none';
+						}
+					});
+				});
+			});
+		
+			// Ensure all projects are visible by default
+			document.querySelectorAll('.project-card').forEach(card => card.style.display = 'block');
+		</script>		
+		
 
-				<section id="projects">
-					<h2>Projects</h2>
-					<p>Coming Soon</p>
-				</section>
-				
-
-
-				<!-- Three -->
-					<!--<section id="three">
+		<!-- Three -->
+		<!--<section id="three">
 						<h2>Get In Touch</h2>
 						<p>Let's Connect! Reach out to me for any inquiries or collaborations.</p>
 						<div class="row">
@@ -211,8 +332,8 @@
 						</div>
 					</section>-->
 
-				<!-- Four -->
-				<!--
+		<!-- Four -->
+		<!--
 					<section id="four">
 						<h2>Elements</h2>
 
@@ -529,30 +650,39 @@ print 'It took ' + i + ' iterations to sort the deck.';</code></pre>
 					</section>
 				-->
 
-			</div>
+	</div>
 
-		<!-- Footer -->
-			<footer id="footer">
-				<div class="inner">
-					<ul class="icons">
-						<li><a href="https://www.linkedin.com/in/mmalyala/" class="icon brands fa-linkedin"><span class="label">LinkedIn</span></a></li>
-						<li><a href="https://github.com/Maddie231" class="icon brands fa-github"><span class="label">Github</span></a></li>
-						<!--<li><a href="#" class="icon brands fa-dribbble"><span class="label">Dribbble</span></a></li>-->
-						<li><a href="mailto:madhurimalyala12@gmail.com" class="icon solid fa-envelope"><span class="label">Email</span></a></li>
-					</ul>
-					<!--<ul class="copyright">
+	<!-- Footer -->
+	<footer id="footer">
+		<div class="inner">
+			<ul class="icons">
+				<li><a href="https://www.linkedin.com/in/mmalyala/" class="icon brands fa-linkedin"><span
+							class="label">LinkedIn</span></a></li>
+				<li><a href="https://github.com/Maddie231" class="icon brands fa-github"><span
+							class="label">Github</span></a></li>
+				<!--<li><a href="#" class="icon brands fa-dribbble"><span class="label">Dribbble</span></a></li>-->
+				<li><a href="mailto:madhurimalyala12@gmail.com" class="icon solid fa-envelope"><span
+							class="label">Email</span></a></li>
+			</ul>
+			<!--<ul class="copyright">
 						<li>&copy; Untitled</li><li>Design: <a href="http://html5up.net">HTML5 UP</a></li>
 					</ul>-->
-				</div>
-			</footer>
+		</div>
+	</footer>
 
-		<!-- Scripts -->
-			<script src="assets/js/jquery.min.js"></script>
-			<script src="assets/js/jquery.poptrox.min.js"></script>
-			<script src="assets/js/browser.min.js"></script>
-			<script src="assets/js/breakpoints.min.js"></script>
-			<script src="assets/js/util.js"></script>
-			<script src="assets/js/main.js"></script>
+	<!-- Scripts -->
+	<script src="assets/js/jquery.min.js"></script>
+	<script src="assets/js/jquery.poptrox.min.js"></script>
+	<script src="assets/js/browser.min.js"></script>
+	<script src="assets/js/breakpoints.min.js"></script>
+	<script src="assets/js/util.js"></script>
+	<script src="assets/js/main.js"></script>
 
+</body>
+
+<<<<<<< HEAD
 	</body>
 </html>
+=======
+</html>
+>>>>>>> 1cff5b7 (Updated portfolio with project and blog sections)
